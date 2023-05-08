@@ -75,6 +75,8 @@ var date = document.createTextNode('Date: ' + childData.date);
 var ult = document.getElementById("scoreList");
 var lit = document.createElement("li");
 lit.setAttribute('class','uls');
+lit.appendChild(document.createElement('br'));
+lit.appendChild(document.createElement('br'))
 lit.appendChild(name);
 lit.appendChild(document.createElement('br'));
 lit.appendChild(email);
