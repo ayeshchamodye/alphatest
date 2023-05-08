@@ -76,8 +76,6 @@ var ult = document.getElementById("scoreList");
 var lit = document.createElement("li");
 lit.setAttribute('class','uls');
 lit.appendChild(space);
-lit.appendChild(document.createElement('br'));
-lit.appendChild(space);
 lit.appendChild(document.createElement('br'))
 lit.appendChild(name);
 lit.appendChild(document.createElement('br'));
@@ -86,6 +84,10 @@ lit.appendChild(document.createElement('br'));
 lit.appendChild(comment);
 lit.appendChild(document.createElement('br'));
 lit.appendChild(date);
+lit.appendChild(document.createElement('br'));
+lit.appendChild(space);
+lit.appendChild(document.createElement('br'));
+lit.appendChild(space);
 lit.appendChild(document.createElement('br'));
 ult.appendChild(lit);
 
