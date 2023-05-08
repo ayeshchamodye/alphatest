@@ -716,7 +716,7 @@ margin-right: 10px;
   font-family: monospace;
   font-weight: normal;
  }
- #message #commentlist{
+ #message{
   padding: 7px;
   border: none;
   border-radius: 10px;
@@ -742,6 +742,19 @@ margin-right: 10px;
   background-color: #006cfa;
   color: white;
  }
+
+.commentlist{
+    padding: 7px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  margin-bottom: 20px;
+  font-size: 16px;
+  left: 0;
+  font-family: monospace;
+  font-weight: normal;
+}
+
 .boxcommentmain{
   font-size: 30px;
     font-weight: 700;
