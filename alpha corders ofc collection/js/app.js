@@ -64,18 +64,20 @@ leadsRef.on('value', function(snapshot) {
       var childData = childSnapshot.val();
       // console.log(childData.message)
 
-var name = document.createTextNode('Name: ' + childData.name);
-var email = document.createTextNode('Email: ' + childData.email);
-var comment = document.createTextNode('Comment : ' + childData.comment);
-var date = document.createTextNode('Date: ' + childData.date);
-
+var name = document.createTextNode('    Name: ' + childData.name);
+var email = document.createTextNode('    Email: ' + childData.email);
+var comment = document.createTextNode('    Comment : ' + childData.comment);
+var date = document.createTextNode('    Date: ' + childData.date);
+var space = document.createTextNode('    ');
 
 
 
 var ult = document.getElementById("scoreList");
 var lit = document.createElement("li");
 lit.setAttribute('class','uls');
+lit.appendChild(space);
 lit.appendChild(document.createElement('br'));
+lit.appendChild(space);
 lit.appendChild(document.createElement('br'))
 lit.appendChild(name);
 lit.appendChild(document.createElement('br'));
