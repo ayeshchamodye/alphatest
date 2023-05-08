@@ -705,7 +705,7 @@ margin-right: 10px;
   font-family: "Nunito", sans-serif;
 }
 
- #name, #youremail{
+ #name, #email{
   padding: 7px;
   border-radius: 10px;
   border: none;
@@ -716,7 +716,7 @@ margin-right: 10px;
   font-family: monospace;
   font-weight: normal;
  }
- #commainid{
+ #message #scoreList{
   padding: 7px;
   border: none;
   border-radius: 10px;
